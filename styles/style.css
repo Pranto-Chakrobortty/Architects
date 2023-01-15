@@ -1,0 +1,90 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400;1,500&family=Work+Sans:wght@500&display=swap');
+
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+*{
+    margin: 0;
+}
+
+/* header style */
+header{
+    background: #FF900E1A;
+    width:100%;
+    
+}
+.nav-title{
+    width: 302px;
+height: 53px;
+font-size: 25px;
+margin-top: 25px;
+margin-left: 150px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    width: 477px;
+    height: 26px;
+    margin-top: 30px;
+    margin-right: 100px;
+    gap: 75px;
+
+}
+nav li,a{
+    list-style: none;
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+font-size: 13px;
+}
+/* brand section style */
+.brand{
+    display: flex;
+    text-align: center;
+}
+.brand-group{
+ width: 500px;
+ margin-left:300px;
+ margin-top: 50px;
+}
+.brand-title{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 55px;
+    color: #131313;
+}
+.brand-ph{
+    font-weight: 200;
+font-size: 12px;
+color: #727272;
+margin:20px 0 30px 0;
+}
+.btn-primary{
+    width: 115px;
+height: 40px;
+color: #FFFFFF;
+background: #FF900E;
+border-style: none;
+border-radius: 8px;
+
+}
+
+/* header banner image style */
+.banner{
+    margin: 50px 0 50px 150px ;
+    padding-bottom: 25px;
+}
+.banner-img{
+
+    width: 900px;
+}
+
+.banner-img img{
+    width: 100%;
+}
